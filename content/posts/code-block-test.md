@@ -1,6 +1,6 @@
 ---
 title: NUEVO TESTAMENTO
-date: 2021-06-27 09:00:00
+date: 2024-06-11
 tags:
     - tracks
 categories:
@@ -13,7 +13,7 @@ categories:
 
 Esto no es una segunda parte.
 
-```
+<pre>
 NO HAY SED
 NI INOCENCIA.
 
@@ -25,7 +25,8 @@ No me vais a encontrar en el libro de los jueces.
 He dejado de rezar.
 
 ¿Es demasiado tarde para volver a aprender?
-```
+</pre>
+
 
 
 ![Revista Jugend](/images/Jugend.png)
