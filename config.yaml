@@ -47,6 +47,7 @@ params:
   # Home page settings
   description: "dalila eslava | poemicas"
   mainSection: "posts" # your main section
+  mainSectionTitle: Tracks
   showAllPostsOnHomePage: false # default
   postsOnHomePage: 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview: false # show tags overview by default.
