@@ -54,7 +54,7 @@ params:
   showProjectsList: false # show projects list by default (if projects data file exists).
   tocInline: true
   # projectsUrl: "https://github.com/gohugoio" # title link for projects list
-
+  css: ["css/custom.css"]
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat: "2006-01-02" # default
 
@@ -184,6 +184,9 @@ menu:
 #       weight: 200
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   tableOfContents:
     endLevel: 4
     ordered: false

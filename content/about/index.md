@@ -17,6 +17,16 @@ Tras una nefasta experiencia con mi editorial, pretendo recoger mis poemas y tex
 
 _Todos los escritos son de mi autoría._
 
+<span style="color: red;">SPAN _Todos los escritos son de mi autoría._.</span>
+
+
+<p style="color: blue;"> P Todos los escritos son de mi autoría.</p>
+
+<span style="texto-rojo;">Esta es una frase en rojo.</span>
+
+
+<span style="color: red;">Esta es una frase en rojo.</span>
+
 
 ![Mi foto](/images/dalila.jpg)
 
