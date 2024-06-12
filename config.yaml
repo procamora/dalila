@@ -62,12 +62,12 @@ params:
   show_updated: true # default
   showReadTime: true # default
 
-  social:
-    - name: linkedin
-      link: https://es.linkedin.com/in/dalila-eslava
+  # social:
+  #   - name: linkedin
+  #     link: https://es.linkedin.com/in/dalila-eslava
 
-    - name: email
-      link: epdalila@gmail.com
+  #   - name: email
+  #     link: epdalila@gmail.com
 
 
   # favicon: img/favicon.ico
@@ -198,7 +198,7 @@ markup:
     lineNoStart: 0
     lineNos: false
     lineNumbersInTable: true
-    noClasses: true
+    noClasses: false
     style: "dracula"
     tabWidth: 4
     noHl: false
