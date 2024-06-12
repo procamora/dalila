@@ -30,10 +30,5 @@ He dejado de rezar.
 
 ![Revista Jugend](/images/Jugend.png)
 
-![Revista Jugend ../](../images/Jugend.png)
-
-
-
-
 > Autor de la imagen: Revista Jugend. Tomada de Pinterest. Editada.
 

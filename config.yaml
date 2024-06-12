@@ -43,7 +43,7 @@ params:
   rss: true # generate rss feed. default value is false
   googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive: false # default
-
+  logo: "images/logo.png"
   # Home page settings
   description: "dalila eslava | poemicas"
   mainSection: "posts" # your main section
@@ -144,21 +144,24 @@ params:
 # ### Custom menu
 # ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 # ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
-# menu:
-#   main:
-#     - identifier: home
-#       name: Home
-#       url: /
-#       weight: -100
-#       params:
-#         icon: home
+menu:
+  main:
+    - name: TRACKS
+      url: /posts/
+      weight: 1
 
-#     - identifier: feed
-#       name: Feed
-#       url: /index.xml
-#       weight: -10
-#       params:
-#         icon: rss
+    - name: SOY
+      url: /about/
+      weight: 2
+
+    - name: MI LIBRO
+      url: /book/
+      weight: 3
+
+    - name: ENOGMI
+      url: /enogmi/
+      weight: 4
+
 #   social:
 #     - identifier: github
 #       name: GitHub
