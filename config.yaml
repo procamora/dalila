@@ -156,7 +156,7 @@ params:
 menu:
   main:
     - name: TRACKS
-      url: /posts/
+      url: /tracks/
       weight: 1
 
     - name: SOY
