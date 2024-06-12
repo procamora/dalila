@@ -4,7 +4,7 @@ date: 2016-08-24 17:51:42
 ---
 
 
-![Mi libro](/images/book.jpg)
+![Mi libro](/images/book.png)
 
 
 Poemario publicado en 2020.

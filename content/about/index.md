@@ -18,7 +18,8 @@ Tras una nefasta experiencia con mi editorial, pretendo recoger mis poemas y tex
 _Todos los escritos son de mi autoría._
 
 
+![Mi foto](/images/dalila.jpg)
 
 
-Github: [monkeyWzr](https://github.com/monkeyWzr)
+
 
