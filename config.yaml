@@ -10,7 +10,7 @@ baseurl: https://dalila.procamora.com
 relativeURLs: true
 languageCode: es-es
 defaultContentLanguage: es
-theme: cactus
+theme: kaktus # cactus  kaktus
 copyright: "Dalila" # cactus will use title if copyright is not set
 
 #theme: hugo-theme-learn
@@ -43,7 +43,7 @@ params:
   rss: true # generate rss feed. default value is false
   googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive: false # default
-  logo: "images/logo.png"
+  logo: "images/logo.jpg"
   # Home page settings
   description: "dalila eslava | poemicas"
   mainSection: "posts" # your main section
