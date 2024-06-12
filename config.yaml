@@ -1,0 +1,205 @@
+---
+
+# https://gohugo.io/documentation/
+# https://gohugo.io/getting-started/configuration/
+# https://docs.stack.jimmycai.com/
+
+# https://roneo.org/en/a-newsletter-with-hugo-buttondown-and-netlify/
+
+baseurl: https://dalila.procamora.com
+languageCode: es-es
+defaultContentLanguage: es
+theme: cactus
+copyright: "Dalila" # cactus will use title if copyright is not set
+
+#theme: hugo-theme-learn
+paginate: 10
+title: "#> fireroot"
+enableRobotsTXT: true
+
+
+
+
+
+# Change it to your Disqus shortname before using
+disqusShortname : 'procamora-github'
+
+# GA Tracking ID
+# googleAnalytics: G-9W65EDE7C7
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+# hasCJKLanguage: false
+
+permalinks:
+  post: /p/:slug/
+  page: /:slug/
+
+
+
+params:
+  colortheme: "white" # dark, light, white, or classic
+  rss: true # generate rss feed. default value is false
+  googleAnalyticsAsync: true # use asynchronous tracking. Synchronous tracking by default
+  showAllPostsArchive: false # default
+
+  # Home page settings
+  description: "Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."
+  mainSection: "posts" # your main section
+  showAllPostsOnHomePage: false # default
+  postsOnHomePage: 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview: true # show tags overview by default.
+  showProjectsList: true # show projects list by default (if projects data file exists).
+  projectsUrl: "https://github.com/gohugoio" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat: "2006-01-02" # default
+
+  # Post page settings
+  show_updated: true # default
+  showReadTime: true # default
+
+
+  # favicon: img/favicon.ico
+
+#   footer:
+#     since: 2020
+#     customText: Esto es el footer
+
+#   dateFormat:
+#     published: Jan 02, 2006
+#     lastUpdated: Jan 02, 2006 15:04 MST
+
+#   sidebar:
+#     #      emoji: 🍥
+#     subtitle: Mi wiki donde escribo artículos sobre Linux, Ciberseguridad y temas relacionados.
+#     # subtitle: My wiki where I write articles about Linux, Cybersecurity and related topics.
+#     avatar:
+#       enabled: true
+#       local: true
+#       src: icons/procamora_30.png
+
+
+#   article:
+#     math: true
+#     toc: true
+#     readingTime: true
+#     license:
+#       enabled: true
+#       default: Licensed under CC BY-NC-SA 4.0
+
+#   comments:
+#     enabled: true
+#     provider: disqus  # set disqusShortname
+
+# #    provider: utterances  # https://utteranc.es/ and https://github.com/apps/utterances
+# #    utterances:
+# #      repo: procamora/dummy
+# #      issueTerm: pathname
+# #      label: utterances
+
+#   widgets:
+#     homepage:
+#       - type: search
+#       - type: archives
+#         params:
+#           limit: 5
+#       - type: categories
+#         params:
+#           limit: 10
+#       - type: tag-cloud
+#         params:
+#           limit: 10
+#     page:
+#       - type: toc
+
+#   opengraph:
+#     twitter:
+#       # Your Twitter username
+#       #            site: lomirus
+
+#       # Available values: summary, summary_large_image
+#       card: summary_large_image
+
+#   defaultImage:
+#     opengraph:
+#       enabled: false
+#       local: false
+#       src:
+
+#   colorScheme:
+#     # Display toggle
+#     toggle: true
+
+#     # Available values: auto, light, dark
+#     default: auto
+
+#   imageProcessing:
+#     cover:
+#       enabled: true
+#     content:
+#       enabled: true
+
+# ### Custom menu
+# ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+# ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+# menu:
+#   main:
+#     - identifier: home
+#       name: Home
+#       url: /
+#       weight: -100
+#       params:
+#         icon: home
+
+#     - identifier: feed
+#       name: Feed
+#       url: /index.xml
+#       weight: -10
+#       params:
+#         icon: rss
+#   social:
+#     - identifier: github
+#       name: GitHub
+#       url: https://github.com/procamora
+#       params:
+#         icon: brand-github
+
+#     - identifier: linkedin
+#       name: Linkedin
+#       url: https://es.linkedin.com/in/pablo-rocamora
+#       params:
+#         icon: brand-linkedin
+
+#     - identifier: mail
+#       name: Gmail
+#       url: mailto:pablojoserocamora@gmail.com
+#       params:
+#         icon: brand-gmail  # https://fontawesomeicons.com/svg/icons/brand-gmail
+
+# related:
+#   includeNewer: true
+#   threshold: 60
+#   toLower: false
+#   indices:
+#     - name: tags
+#       weight: 100
+
+#     - name: categories
+#       weight: 200
+
+markup:
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+    style: "dracula"
+    tabWidth: 4
