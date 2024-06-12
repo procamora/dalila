@@ -186,7 +186,7 @@ menu:
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true  ## Set to true if you have HTML content inside Markdown
   tableOfContents:
     endLevel: 4
     ordered: false
@@ -195,9 +195,10 @@ markup:
     codeFences: true
     guessSyntax: true
     hl_Lines: ""
-    lineNoStart: 1
+    lineNoStart: 0
     lineNos: false
     lineNumbersInTable: true
-    noClasses: false
+    noClasses: true
     style: "dracula"
     tabWidth: 4
+    noHl: false
