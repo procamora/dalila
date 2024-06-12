@@ -8,7 +8,7 @@
 
 baseurl: https://dalila.procamora.com
 relativeURLs: true
-languageCode: es-es
+languageCode: Es-es
 defaultContentLanguage: es
 theme: cactus # cactus  kaktus
 copyright: "Dalila" # cactus will use title if copyright is not set
@@ -61,6 +61,13 @@ params:
   show_updated: true # default
   showReadTime: true # default
 
+  social:
+    - name: linkedin
+      link: https://es.linkedin.com/in/dalila-eslava
+
+    - name: email
+      link: epdalila@gmail.com
+
 
   # favicon: img/favicon.ico
 
@@ -90,9 +97,9 @@ params:
 #       enabled: true
 #       default: Licensed under CC BY-NC-SA 4.0
 
-#   comments:
-#     enabled: true
-#     provider: disqus  # set disqusShortname
+  comments:
+    enabled: false
+    engine: disqus  # set disqusShortname
 
 # #    provider: utterances  # https://utteranc.es/ and https://github.com/apps/utterances
 # #    utterances:
@@ -163,24 +170,6 @@ menu:
       url: /enogmi/
       weight: 4
 
-#   social:
-#     - identifier: github
-#       name: GitHub
-#       url: https://github.com/procamora
-#       params:
-#         icon: brand-github
-
-#     - identifier: linkedin
-#       name: Linkedin
-#       url: https://es.linkedin.com/in/pablo-rocamora
-#       params:
-#         icon: brand-linkedin
-
-#     - identifier: mail
-#       name: Gmail
-#       url: mailto:pablojoserocamora@gmail.com
-#       params:
-#         icon: brand-gmail  # https://fontawesomeicons.com/svg/icons/brand-gmail
 
 # related:
 #   includeNewer: true
