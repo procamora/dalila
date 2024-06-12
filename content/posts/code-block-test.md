@@ -13,6 +13,7 @@ categories:
 
 Esto no es una segunda parte.
 
+```
 NO HAY SED
 NI INOCENCIA.
 
@@ -24,6 +25,8 @@ No me vais a encontrar en el libro de los jueces.
 He dejado de rezar.
 
 ¿Es demasiado tarde para volver a aprender?
+```
+
 
 ![Revista Jugend](/images/Jugend.jpg)
 
