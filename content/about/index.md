@@ -1,8 +1,3 @@
----
-title: SOY
-date: 2016-08-24 17:51:42
----
-
 
 Teruel, 1994. Doctora en Psicología especializada en intervención social.
 
@@ -15,21 +10,10 @@ Tras una nefasta experiencia con mi editorial, pretendo recoger mis poemas y tex
 > If you know love, you best prepare to grieve. - Hayley Williams
 
 
-_Todos los escritos son de mi autoría._
-
-<span style="color: red;">SPAN _Todos los escritos son de mi autoría._.</span>
+_<span class="texto-rojo">Todos los escritos son de mi autoría.</span>_
 
 
-<p style="color: blue;"> P Todos los escritos son de mi autoría.</p>
-
-<span style="texto-rojo;">Esta es una frase en rojo.</span>
-
-
-<span style="color: red;">Esta es una frase en rojo.</span>
+<!-- <span style="color: red;">Esta es una frase en rojo.</span> -->
 
 
 ![Mi foto](/images/dalila.jpg)
-
-
-
-

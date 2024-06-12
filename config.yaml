@@ -10,7 +10,7 @@ baseurl: https://dalila.procamora.com
 relativeURLs: true
 languageCode: Es-es
 defaultContentLanguage: es
-theme: cactus # cactus  kaktus
+theme: kaktus # cactus  kaktus
 copyright: "Dalila" # cactus will use title if copyright is not set
 
 #theme: hugo-theme-learn
