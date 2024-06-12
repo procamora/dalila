@@ -30,9 +30,8 @@ He dejado de rezar.
 
 ![Revista Jugend](/images/Jugend.png)
 
-![Revista Jugend](../images/Jugend.png)
-![Revista Jugend](static/images/Jugend.png)
-![Revista Jugend](/resources/images/Jugend.png)
+![Revista Jugend ../](../images/Jugend.png)
+
 
 
 
