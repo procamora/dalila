@@ -7,6 +7,20 @@
     color: blue;
 }
 
+
+
+
+
+body {
+    background-color: #fff9f7; /* Cambia este valor por el color que prefieras */
+}
+
+#header #nav ul a {
+    color: #b62323; /* Cambia este valor por el color que prefieras */
+}
+
+
+
 .flex {
   display: flex;
 }
