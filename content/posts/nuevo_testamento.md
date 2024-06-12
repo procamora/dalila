@@ -13,19 +13,6 @@ categories:
 
 Esto no es una segunda parte.
 
-<pre>
-NO HAY SED
-NI INOCENCIA.
-
-Cuando baje el espíritu santo
-se encontrará a todos sus hijos llorando
-menos a mí.
-
-No me vais a encontrar en el libro de los jueces.
-He dejado de rezar.
-
-¿Es demasiado tarde para volver a aprender?
-</pre>
 
 ```
 NO HAY SED
